@@ -1,0 +1,39 @@
+.header-pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation-item:not(:first-child) {
+    margin-left: 50px;
+}
+
+.navigation-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.35%;
+    color: $primary-text-color;
+}
+
+.btn-prim {
+    height: 36px;
+    padding: 9px 15px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.40;
+    background-color: $bg-btn;
+    color: $primary-text-color;
+    border-radius: 3px;
+}

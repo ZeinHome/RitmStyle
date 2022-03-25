@@ -1,0 +1,43 @@
+.about {
+    padding-bottom: 150px;
+}
+
+.about__block {
+    display: flex;
+    justify-content: center;
+}
+
+.about__block:not(:last-child) {
+    margin-bottom: 100px;
+}
+
+.about__box {
+    width: 466px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.40;
+    margin: auto 0;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.40;
+    margin-bottom: 30px;
+}
+
+.about__indent {
+    margin-top: 20px;
+}
+
+.about__img {
+    width: 526px;
+    height: 365px;
+    border-radius: 10px;
+    margin-left: 64px;
+}
+
+.about__img--rigth {
+    margin-left: 0;
+    margin-right: 64px;
+}

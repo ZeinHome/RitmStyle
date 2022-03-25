@@ -1,0 +1,48 @@
+.sessions {
+    padding: 150px 0;
+}
+
+.section__title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.section__title::before {
+    content: '';
+    display: inline-block;
+    width: 28px;
+    height: 14px;
+    background-image: url("/images/sheet-blue.png");
+    margin-right: 45px;
+}
+
+.section__title::after {
+    content: '';
+    display: inline-block;
+    width: 28px;
+    height: 14px;
+    background-image: url("/images/sheet-blue.png");
+    margin-left: 45px;
+    transform: scale(1, -1);
+}
+
+.sessions__img {
+    width: 416px;
+    height: 540px;
+    background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(.jpg), url(image.png), #8E8E8E;
+    border-radius: 10px;
+}
+
+.sessions__img--second {
+    width: 416px;
+    height: 258px;
+    background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(.jpg);
+    border-radius: 10px;
+}
+
+.a {
+    display: flex;
+}
