@@ -1,0 +1,42 @@
+.format {
+    padding-top: 60px;
+    padding-bottom: 160px;
+}
+
+.format__data {
+    width: 96px;
+    height: 30px;
+    margin-bottom: 50px;
+    background: #018ABE;
+    border-radius: 5px;
+}
+
+.format__title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.40;
+}
+
+.format__block {
+    display: flex;
+}
+
+.format__text {
+    width: 526px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.40;
+}
+
+.format__img {
+    margin-left: 134px;
+}
+
+.format__photo {
+    border-radius: 10px;
+}
+
+.format__text>.format__text--margin {
+    margin-top: 30px;
+}

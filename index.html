@@ -23,7 +23,7 @@
             <nav class="main-nav">
                 <ul class="navigation">
                     <li class="navigation-item">
-                        <a class="navigation-link" href="">Главная</a>
+                        <a class="navigation-link" href="./index.html">Главная</a>
                     </li>
                     <li class="navigation-item">
                         <a class="navigation-link" href="">Сеансы</a>
@@ -35,13 +35,13 @@
                         <a class="navigation-link" href="">Контакты</a>
                     </li>
                     <li class="navigation-item">
-                        <a class="navigation-link" href="">Новости</a>
+                        <a class="navigation-link" href="./news.html">Новости</a>
                     </li>
                     <li class="navigation-item">
                         <a class="navigation-link" href="">Обо мне</a>
                     </li>
                     <li class="navigation-item">
-                        <a class="navigation-link" href="">Блог</a>
+                        <a class="navigation-link" href="./blog.html">Блог</a>
                     </li>
                 </ul>
             </nav>
@@ -61,15 +61,38 @@
     </section>
 
     <section class="sessions">
-        <div class="container">
+        <div class="container ">
             <h2 class="section__title">Сеансы RitmStyle</h2>
-            <div class="a">
-                <img src="./images/swimming.jpg" alt="картинка" class="sessions__img">
+            <div class="sessions__block">
 
-                <img src="./images/swimming.jpg" alt="картинка" class="sessions__img--second">
-                <img src="./images/swimming.jpg" alt="картинка" class="sessions__img--second">
-                <img src="./images/swimming.jpg" alt="картинка" class="sessions__img--second">
-                <img src="./images/swimming.jpg" alt="картинка" class="sessions__img--second">
+                <ul>
+                    <li class="sessions__item">
+                        <img src="./images/swimming.jpg" alt="картинка" class="sessions__img">
+                        <h3 class="sessions__text">Стандартный RitmStyle</h3>
+                    </li>
+                </ul>
+
+                <ul class="sessions__img--block">
+
+                    <li class="sessions__item">
+                        <img src="./images/swimming.jpg" alt="картинка" class="sessions__img--second">
+                        <h3 class="sessions__text">RitmStyle для пар</h3>
+                    </li>
+                    <li class="sessions__item">
+                        <img src="./images/swimming.jpg" alt="картинка" class="sessions__img--second">
+                        <h3 class="sessions__text">RitmStyle с полным <br />погружением под воду</h3>
+                    </li>
+                    <li class="sessions__item">
+                        <img src="./images/swimming.jpg" alt="картинка" class="sessions__img--second">
+                        <h3 class="sessions__text">RitmStyle для беременных</h3>
+                    </li>
+                    <li class="sessions__item">
+                        <img src="./images/swimming.jpg" alt="картинка" class="sessions__img--second">
+                        <h3 class="sessions__text">RitmStyle + красочная подводная фотосессия</h3>
+                    </li>
+
+                </ul>
+
 
             </div>
         </div>
@@ -192,7 +215,7 @@
                             <svg width="20px" height="20px" class="location__icon">
                                 <use href="./images/symbol-defs.svg#icon-calendar"></use>
                             </svg> Запись по договоренности</p>
-                        <button class="location__btn">Записаться на сеанс</button>336
+                        <button class="location__btn">Записаться на сеанс</button>
                     </div>
                 </div>
             </div>
@@ -200,7 +223,9 @@
     </section>
 
     <footer>
-        <p>© 2018-2022 RitmStyle</p>
+        <div class="container">
+            <p>© 2018-2022 RitmStyle</p>
+        </div>
     </footer>
 </body>
 
