@@ -43,4 +43,11 @@
     padding: 9px 15px;
     border-radius: 3px;
     color: $bg-btn;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.location__btn:hover,
+.location__btn:focus {
+    color: $link-color;
+    background-color: $bg-btn-hover;
 }

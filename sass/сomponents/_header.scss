@@ -21,24 +21,40 @@
     display: flex;
 }
 
-.navigation-item:not(:first-child) {
+.navigation__item:not(:first-child) {
     margin-left: 50px;
 }
 
-.navigation-link {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.35%;
+.navigation__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.35;
     color: $primary-text-color;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation__link--current {
+    color: $link-color--current;
+}
+
+.navigation__link:hover,
+.navigation__link:focus {
+    color: $link-color;
 }
 
 .btn-prim {
     height: 36px;
     padding: 9px 15px;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.40;
     background-color: $bg-btn;
     color: $primary-text-color;
     border-radius: 3px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-prim:hover,
+.btn-prim:focus {
+    color: $link-color;
 }
