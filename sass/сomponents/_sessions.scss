@@ -37,8 +37,7 @@
     position: relative;
     width: 700px;
     height: 540px;
-    background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(.jpg), url(image.png), #8E8E8E;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .sessions__text {
@@ -70,6 +69,5 @@
 .sessions__img--second {
     width: 416px;
     height: 258px;
-    background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(.jpg);
     border-radius: 10px;
 }

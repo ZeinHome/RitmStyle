@@ -5,25 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>New session format</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&display=swap" rel="stylesheet">
     <!-- modern normalize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="../css/main.min.css">
 </head>
 
 <body>
 
     <header>
         <div class="header-pages container">
-            <img src="./images/logo.png" alt="ship" width="60" height="60">
+            <img src="../images/logo.png" alt="ship" width="60" height="60">
 
             <nav class="main-nav">
                 <ul class="navigation">
                     <li class="navigation__item">
-                        <a class="navigation__link" href="./index.html">Главная</a>
+                        <a class="navigation__link" href="../index.html">Главная</a>
                     </li>
                     <li class="navigation__item">
                         <a class="navigation__link" href="">Сеансы</a>
@@ -41,7 +41,7 @@
                         <a class="navigation__link" href="">Обо мне</a>
                     </li>
                     <li class="navigation__item">
-                        <a class="navigation__link navigation__link--current" href="./blog.html">Блог</a>
+                        <a class="navigation__link" href="./blog.html">Блог</a>
                     </li>
                 </ul>
             </nav>
@@ -50,58 +50,41 @@
         </div>
     </header>
 
-    <section class="blog">
+    <section class="format">
         <div class="container">
-            <h3 class="section__title">Блог</h3>
-            <div class="blog__block">
-                <div class="blog__img">
-                    <img src="./images/format.jpg" alt="girs" width="564" height="430" class="format__photo blog-width">
-                </div>
-                <div>
-                    <div class="format__data">
-                        <p class="news__text">13.02.2022</p>
-                    </div>
-                    <h3 class="blog__title">Новый формат сеансов</h3>
-                    <p class="blog__text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget massa vitae tempus at pretium lacus viverra. Vitae libero vivamus quis enim quam vitae dictumst nulla duis. Sed nisl nibh et morbi tristique suspendisse morbi. Consequat facilisi tortor consectetur
-                        magnis odio. Risus, aenean tortor cras consectetur lacus, ut erat ac et. Fermentum aliquam ac egestas eget risus a. Maecenas sed pellentesque bibendum vitae at praesent sed. Amet pretium arcu gravida arcu ut dui sem quis id. Tristique
-                        in leo donec proin odio eget. Neque ut in egestas lacus sit nunc, nec. Proin mattis augue sit leo sagittis nam id accumsan. Pulvinar nunc fermentum vulputate ultrices pulvinar sed ultrices quis.
-                    </p>
+            <h2 class="section__title">Новый формат сеансов</h2>
 
-                    <button class="blog__btn">Читать статью</button>
-                </div>
+            <div class="format__data">
+                <p class="news__text">13.02.2022</p>
             </div>
-
-            <div class="blog__block">
-                <div class="blog__img">
-                    <img src="./images/format.jpg" alt="girs" width="564" height="430" class="format__photo blog-width">
-                </div>
-                <div>
-                    <div class="format__data">
-                        <p class="news__text">13.02.2022</p>
-                    </div>
-                    <h3 class="blog__title">Новый формат сеансов</h3>
-                    <p class="blog__text">
+            <h3 class="format__title">Новый формат сеансов</h3>
+            <div class="format__block">
+                <div class="format__text">
+                    <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget massa vitae tempus at pretium lacus viverra. Vitae libero vivamus quis enim quam vitae dictumst nulla duis. Sed nisl nibh et morbi tristique suspendisse morbi. Consequat facilisi tortor consectetur
                         magnis odio. Risus, aenean tortor cras consectetur lacus, ut erat ac et. Fermentum aliquam ac egestas eget risus a. Maecenas sed pellentesque bibendum vitae at praesent sed. Amet pretium arcu gravida arcu ut dui sem quis id. Tristique
                         in leo donec proin odio eget. Neque ut in egestas lacus sit nunc, nec. Proin mattis augue sit leo sagittis nam id accumsan. Pulvinar nunc fermentum vulputate ultrices pulvinar sed ultrices quis.
                     </p>
-
-                    <button class="blog__btn">Читать статью</button>
+                    <p class="format__text--margin">
+                        Tempor facilisis tellus ac, odio. A amet congue tristique nibh malesuada lectus. Purus quam dapibus rhoncus iaculis amet tristique. Mattis fusce lorem fames mauris orci rhoncus, amet fringilla. Quis integer vitae at vitae urna etiam sed eu sit.
+                    </p>
+                    <p class="format__text--margin">
+                        Vitae turpis ullamcorper habitant fermentum aliquet volutpat.
+                    </p>
+                </div>
+                <div class="format__img">
+                    <img src="../images/format.jpg" alt="girs" width="636px" height="394px" class="format__photo">
                 </div>
             </div>
         </div>
     </section>
 
     <div class="container header-pages__line"></div>
-
     <footer>
         <div class="container">
             <p>© 2018-2022 RitmStyle</p>
         </div>
     </footer>
-
-    <script src="./js/blog.js"></script>
 </body>
 
 </html>

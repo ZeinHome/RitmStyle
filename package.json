@@ -1,0 +1,19 @@
+{
+    "name": "ritmstyle",
+    "version": "1.0.0",
+    "description": "'test'",
+    "main": "index.js",
+    "scripts": {
+        "dev": "./*.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ZeinHome/RitmStyle.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ZeinHome/RitmStyle/issues"
+    },
+    "homepage": "https://github.com/ZeinHome/RitmStyle#readme"
+}
